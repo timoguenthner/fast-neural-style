@@ -5,4 +5,4 @@ services:
         context: .
         dockerfile: Docker/Dockerfile-torch
       volumes:
-          - ./:/root/torch
+          - ./:/root/fast-neural-style
