@@ -1,0 +1,8 @@
+version: '2'
+services:
+    torch:
+      build:
+        context: .
+        dockerfile: Docker/Dockerfile-torch
+      volumes:
+          - ./:/root/torch
