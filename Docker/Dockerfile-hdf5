@@ -1,0 +1,7 @@
+# Start with python base image
+FROM python:2.7-stretch
+
+# Install things
+RUN apt-get update
+RUN apt-get -y install python2.7-dev
+RUN apt-get -y install libhdf5-devcd

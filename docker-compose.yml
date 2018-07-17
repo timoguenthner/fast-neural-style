@@ -6,3 +6,9 @@ services:
         dockerfile: Docker/Dockerfile-torch
       volumes:
           - ./:/root/fast-neural-style
+    hdf5:
+      build:
+        context: .
+        dockerfile: Docker/Dockerfile-hdf5
+      volumes:
+          - ./:/root/training
